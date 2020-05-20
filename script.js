@@ -32,6 +32,7 @@
     
     //form validation code goes here !
  			form.addEventListener("submit", function(event){
+        event.preventDefault();
   var launchstatus=document.getElementById("launchStatus");
   var launchstatuscheck=document.getElementById("launchStatusCheck");
   var faultyitems=document.getElementById("faultyItems");
